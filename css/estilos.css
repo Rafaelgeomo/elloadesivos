@@ -6,6 +6,7 @@ body {
 }
 .menu {
     background-color: transparent;
+    font-size: 4mm;
 }
 .menu ul {
     display: flex; /* Essa propriedade força a todos ficarem em coluna */
@@ -28,8 +29,47 @@ a:hover {
 .site-title {
     color:yellow;
     text-align: center;
+    font-size: 6mm;
 }
 .site-subtitle {
     font-style: italic;
 }
-
+p {
+    color: lightblue;
+    font-family: Bradley Hand;
+    font-size: 8mm;
+    font-style: oblique;
+    text-align: center;
+}
+.social {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    
+}
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -99999;
+}
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+.social a[href*="instagram.com"] {
+    background-image: url(../img/instragram.png);
+}
+.social a[href*="linkedin.com"] {
+    background-image: url(../img/linkendin.png);
+}
+footer {
+    clear: both;
+    padding: 20px 0;
+}
+footer .container {
+    position: relative;
+}
