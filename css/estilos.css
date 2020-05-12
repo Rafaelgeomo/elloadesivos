@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/fundo-vinho-png-2.png");
+    background-size: auto 100vh;
+    font-family: Bradley Hand;
+    height: 100vh;
+}
+.menu {
+    background-color: transparent;
+}
+.menu ul {
+    display: flex; /* Essa propriedade força a todos ficarem em coluna */
+    justify-content: space-around; /*so serve quando se usa a propriedade display flex*/
+}
+.menu li {
+    list-style: none;
+}
+a {
+    color:whitesmoke;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: lightblue; text-shadow: black 0.1em 0.1em 0.2em;
+    opacity:1;
+    
+}
+.site-subtitle,
+.site-title {
+    color:yellow;
+    text-align: center;
+}
+.site-subtitle {
+    font-style: italic;
+}
+
