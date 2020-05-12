@@ -38,14 +38,37 @@ a:hover {
     color: black;
     
 }
-.site-subtitle,
-.site-title {
-    color:yellow;
+.site-subtitle {
+    font-style: italic;
+    color:whitesmoke;
     text-align: center;
     font-size: 6mm;
 }
-.site-subtitle {
-    font-style: italic;
+.site-title {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    overflow: hidden; /*esconde as letras até aparecer*/
+    border-right: 2px solid white;
+    white-space: nowrap; /* mantem todos na mesma linha*/
+    margin: 0 auto;
+    letter-spacing:.15em;
+    animation: typing 6s steps(40) 1s normal both,/*steps serve para quebrar quadro a quadro*/
+    blinkTextCursor 500ms steps(40) infinite normal;
+    /*animation: typing 7.5s steps(40, end),
+    blink-caret .85s step-end infinite;*/
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 17em }
+    }
+    
+    @keyframes blinkTextCursor {
+    from { 
+        border-right-color: white; }
+    to { 
+        border-right-color: transparent; 
+    }
 }
 p {
     color: lightblue;
