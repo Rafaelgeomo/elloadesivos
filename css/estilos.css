@@ -1,15 +1,14 @@
 body {
-    background-color: #030303;
     padding: 0;
     margin: 0;
     font-family: Bradley Hand;
+    background-image: url(../img/2018_0101_010400_005.JPG);
+    background-size: auto 1000px;
     height: 100vh;
+    
 }
 header{
-    background-image: url(../img/imagem.gif);
-    height: 600px;
     background-position: right center;
-    background-size: auto 100vh;
 }
 .menu {
     background-color: black;
@@ -71,7 +70,7 @@ a:hover {
     }
 }
 p {
-    color: lightblue;
+    color: black;
     font-family: Bradley Hand;
     font-size: 8mm;
     font-style: oblique;
@@ -79,13 +78,14 @@ p {
 }
 .social {
     position: absolute;
-    top: 150px;
+    top: 280px;
     right: 0;
     
 }
 .social li {
     float: left;
     margin-left: 25px;
+    list-style: none;
 }
 .social a {
     height: 32px;
