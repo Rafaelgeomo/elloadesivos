@@ -1,31 +1,77 @@
-body {
-    padding: 0;
+* {
     margin: 0;
-    font-family: Bradley Hand;
-    background-image: url(../img/2018_0101_010400_005.JPG);
-    background-size: auto 1000px;
-    height: 100vh;
-    
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(15, 19, 22);
+    background-size: auto 100vh;
+    color: darkgrey;
+    font-size: 15px;
+    font-family: 'Noto Sans', serif;
+    text-align: justify;
+}
+/*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
+@media (min-width: 320px ) {
+    body {
+        font-size: 14px;
+    }
+    .menu a {
+        font-size: 0.5em;
+}
+}
+/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
+@media (min-width: 760px ) {
+    body {
+        font-size: 16px;
+    }
+    .menu a {
+        font-size: 0.6em;
+}
+}
+/*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
+@media (min-width: 1024px ) {
+    body {
+        font-size: 19px;
+    }
+    .menu a {
+        font-size: 0.6em;
+}
+}
+/*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
+@media (min-width: 1440px ) {
+    body {
+        font-size: 25px;
+    }
+    .menu a {
+        font-size: 1em;
+}
 }
 header{
-    background-position: right center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu {
-    background-color: black;
-    overflow: hidden;
-    font-size: 4mm;
-    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    position: fixed;
+    width: 100vh;
+    top:0;
 }
-ul {
-  margin: auto;
-  text-align: left;
+.menu ul {
+  display:flex;
+  justify-content: space-evenly;
 }
 .menu li {
     list-style: none;
     text-shadow: 5px 5px 7px #f5f5f5;
     padding: 10px;
     text-transform: uppercase;
-    display: inline;
+}
+.menu a {
+    display:block;
+    padding: 10px 20px;
 }
 a {
     color:whitesmoke;
@@ -37,6 +83,21 @@ a:hover {
     color: black;
     
 }
+.site-title {
+    color: darkcyan;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+}
+.site-subtitle {
+    color: darkgrey;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.2em; 
+}
+/*
 .site-subtitle {
     font-style: italic;
     color:whitesmoke;
@@ -48,31 +109,13 @@ a:hover {
     text-align: center;
     font-size: 2em;
     overflow: hidden; /*esconde as letras até aparecer*/
-    border-right: 2px solid white;
+    /*border-right: 2px solid white;
     white-space: nowrap; /* mantem todos na mesma linha*/
-    margin: 0 auto;
-    letter-spacing:.15em;
-    animation: typing 6s steps(40) 1s normal both,/*steps serve para quebrar quadro a quadro*/
-    blinkTextCursor 500ms steps(40) infinite normal;
-    /*animation: typing 7.5s steps(40, end),
-    blink-caret .85s step-end infinite;*/
-}
-@keyframes typing {
-    from { width: 0 }
-    to { width: 17em }
-    }
     
-    @keyframes blinkTextCursor {
-    from { 
-        border-right-color: white; }
-    to { 
-        border-right-color: transparent; 
-    }
-}
 p {
-    color: black;
-    font-family: Bradley Hand;
-    font-size: 8mm;
+    color:whitesmoke;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
     font-style: oblique;
     text-align: center;
 }
@@ -101,6 +144,10 @@ p {
 }
 .social a[href*="linkedin.com"] {
     background-image: url(../img/linkendin.png);
+}
+.img-portfolio {
+    width: 180px;
+    height: 180px;
 }
 footer {
     clear: both;
