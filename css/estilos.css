@@ -19,6 +19,9 @@ body {
     .menu a {
         font-size: 0.5em;
 }
+   .projetos h3 {
+    font-size: 22px;
+}
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 760px ) {
@@ -27,6 +30,14 @@ body {
     }
     .menu a {
         font-size: 0.6em;
+   }
+   .projetos .grid {
+    align-items: center;
+    grid-template-columns: 130px auto;
+    gap: 1.8em;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 2em;
 }
 }
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
@@ -37,6 +48,9 @@ body {
     .menu a {
         font-size: 0.6em;
 }
+   .projetos h3 {
+    font-size: 30px;
+}
 }
 /*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
 @media (min-width: 1440px ) {
@@ -45,6 +59,9 @@ body {
     }
     .menu a {
         font-size: 1em;
+}
+    .projetos h3 {
+    font-size: 32px;
 }
 }
 header{
@@ -113,16 +130,15 @@ a:hover {
     white-space: nowrap; /* mantem todos na mesma linha*/
     
 p {
-    color:whitesmoke;
     font-family: 'Comfortaa', cursive;
     font-size: 1.5em;
-    font-style: oblique;
-    text-align: center;
+   
 }
 .social {
     position: absolute;
-    top: 280px;
-    right: 0;
+    top: 100px;
+    right: 10px;
+    margin: 15px;
     
 }
 .social li {
@@ -148,6 +164,56 @@ p {
 .img-portfolio {
     width: 180px;
     height: 180px;
+}
+.portifolio  {
+    padding: 2em;
+    text-align: center;
+}
+.projetos {
+    padding: 2em;
+}
+.projetos .grid {
+    display: grid;
+    gap: 1em;
+}
+.projetos figure {
+    text-align: center;
+}
+.scroll-arrow {
+    height: 14vh;
+    position: relative;
+    width: 49vh;
+    align-self: center;
+    left: 49%;
+    scroll-behavior: smooth;
+    opacity: 70%;
+    bottom:80px;
+}
+figcaption {
+    color: rgb(45, 121, 235);
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+figure {
+    height: 80px;
+    width: 80px;
+    margin-top: 1.8em
+}
+h3 {
+    text-align: center;
+    color: rgb(45, 121, 235);
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+.img-projetos {
+    height: 80px;
+    width: 80px;
+    margin-top: 1.8em;
+}
+.img-scroll-arrow {
+    height: 20px;
+    width: 20px;
 }
 footer {
     clear: both;
