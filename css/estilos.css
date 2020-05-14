@@ -146,8 +146,7 @@ p {
     font-family: 'Comfortaa', cursive;
     font-size: 1em;
     margin-left: 125px; /*mudar o texto de ludar*/
-
-   
+    margin-top: -46px;
 }
 .social {
     position: absolute;
