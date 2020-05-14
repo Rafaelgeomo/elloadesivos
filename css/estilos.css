@@ -17,7 +17,7 @@ body {
         font-size: 14px;
     }
     .menu {
-        width: 100%;
+        width: 100vw;
         text-align: center;
     }
     .menu a {
@@ -33,7 +33,7 @@ body {
         font-size: 16px;
     }
     .menu {
-        width: 100%;
+        width: 100vw;
         text-align: center;
     }
     .menu a {
@@ -57,7 +57,7 @@ body {
         font-size: 0.6em;
 }
 .menu {
-    width: 100%;
+    width: 100vw;
     text-align: center;
 }
    .projetos h3 {
@@ -85,7 +85,7 @@ header{
 .menu {
     font-family: 'Comfortaa', cursive;
     position: fixed;
-    width: auto;
+    width: 100vw;
     top:0;
 }
 .menu ul {
@@ -194,7 +194,7 @@ p {
 .scroll-arrow {
     height: 14vh;
     position: relative;
-    width: 49vh;
+    width: 49vw;
     align-self: center;
     left: 49%;
     scroll-behavior: smooth;
