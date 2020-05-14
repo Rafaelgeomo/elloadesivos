@@ -16,6 +16,10 @@ body {
     body {
         font-size: 14px;
     }
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
     .menu a {
         font-size: 0.5em;
 }
@@ -27,6 +31,10 @@ body {
 @media (min-width: 760px ) {
     body {
         font-size: 16px;
+    }
+    .menu {
+        width: 100%;
+        text-align: center;
     }
     .menu a {
         font-size: 0.6em;
@@ -47,6 +55,10 @@ body {
     }
     .menu a {
         font-size: 0.6em;
+}
+.menu {
+    width: 100%;
+    text-align: center;
 }
    .projetos h3 {
     font-size: 30px;
@@ -73,7 +85,7 @@ header{
 .menu {
     font-family: 'Comfortaa', cursive;
     position: fixed;
-    width: 90vh;
+    width: auto;
     top:0;
 }
 .menu ul {
