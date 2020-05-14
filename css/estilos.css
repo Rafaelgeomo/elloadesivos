@@ -73,7 +73,7 @@ header{
 .menu {
     font-family: 'Comfortaa', cursive;
     position: fixed;
-    width: 100vh;
+    width: 90vh;
     top:0;
 }
 .menu ul {
