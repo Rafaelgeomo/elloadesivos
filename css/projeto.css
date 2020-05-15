@@ -127,6 +127,15 @@ a:hover {
     display: grid;
     gap: 4em;
 }
+@media (min-width: 320px) {
+     .img-portfolio {
+        height: 50px;
+        width: 50px;
+        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
+        object-position: left bottom; /*mover a imagem dentro da caixa*/
+        border-radius:20px;/*faz com que a imagem fique arredondada */
+    }
+}
 @media (min-width: 560px) {
     .projetos .grid {
       grid-template-columns: 290px 290px;
@@ -143,7 +152,7 @@ a:hover {
     text-align: center;
 }
 .projetos figcaption {
-    paddin;
+    padding:center;
 
 }
 .img-portfolio {
