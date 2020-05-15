@@ -101,50 +101,57 @@ header{
 .menu a {
     display:block;
     padding: 10px 20px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comic Neue', cursive;
     font-size: 0.8em;
 }
 a {
     color:whitesmoke;
     text-decoration: none;
-    
 }
 a:hover {
     background-color: #ddd;
     color: black;
 }
+.projetos {
+    margin: auto;
+    height: 100vh;
+}
+.projetos h2 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 3em;
+    color: rgb(218, 118, 118);
+    margin-bottom: 1.5em;
+    padding-top: 1.5em;
+}
 .projetos .grid {
     display: grid;
-    gap: 2.4em;
+    gap: 4em;
+}
+@media (min-width: 560px) {
+    .projetos .grid {
+      grid-template-columns: 290px 290px;
+    }
+}
+@media (min-width: 880px) {
+    .projetos .grid {
+      grid-template-columns: repeat(3, 260px);
+      align-content: center;
+      justify-content: center;
+    }
 }
 .projetos figure {
     text-align: center;
 }
-.projetos {
-    margin: auto;
-}
-figcaption {
-    color: rgb(45, 121, 235);
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-}
-figure {
-    height: 80px;
-    width: 80px;
-    margin-top: 2em
-}
-.projetos h3 {
-    text-align: center;
-    color: rgb(45, 121, 235);
-    font-family: 'Comfortaa', cursive;
-    font-size: 1.5em;
-    padding-top: 2em;
-    padding-bottom: 1em;
+.projetos figcaption {
+    paddin;
+
 }
 .img-portfolio {
-    height: 120px;
-    width: 120px;
-    margin-top: 1.8em;
+    height: 220px;
+    width: 290px;
+    object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
+    object-position: left bottom; /*mover a imagem dentro da caixa*/
+    border-radius:20px;/*faz com que a imagem fique arredondada */
 }
-
+  
 

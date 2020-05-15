@@ -8,7 +8,7 @@ body {
     background-size: auto 100vh;
     color: darkgrey;
     font-size: 15px;
-    font-family: 'Noto Sans', serif;
+    font-family: 'Patrick Hand', cursive;
     text-align: justify;
     height: 100vh;
 }
@@ -87,7 +87,7 @@ header{
 .menu a {
     display:block;
     padding: 10px 20px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comic Neue', cursive;
     font-size: 0.8em;
 }
 a {
@@ -103,22 +103,22 @@ a:hover {
 .site-title {
     color: rgb(218, 118, 118);
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 3em;
     
 }
 .site-subtitle  {
     color: darkgrey;
     text-align: center;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comic Neue', cursive;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 2.5em;
 }
 .texto {
     color: darkgrey;
     text-align: center;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comic Neue', cursive;
     font-style: italic;
     font-size: 1.2em;
     line-height: 2.5em; 
