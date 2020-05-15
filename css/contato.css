@@ -24,6 +24,7 @@ body {
     .menu a {
         font-size: 0.5em;
 }
+}
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 560px ) {
     body {
@@ -85,47 +86,71 @@ header{
     padding: 10px 20px;
     font-family: 'Comic Neue', cursive;
     font-size: 0.8em;
-}
-a {
     color:whitesmoke;
-    text-decoration: none;
-    
+    text-decoration: none
 }
-a:hover {
+.menu a:hover {
     background-color: #ddd;
     color: black;
 }
-.social {
-    position: absolute;
-    top: 100px;
-    right: 10px;
-        
+.contatos {
+    margin: auto;
+    height: 100vh;
 }
-.social li {
-    float: left;
-    margin-left: 25px;
-    list-style: none;
+.contatos h2 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 3em;
+    color: rgb(218, 118, 118);
+    margin-bottom: 1.5em;
+    padding-top: 1.5em;
+    padding: center;
 }
-.social a {
-    height: 32px;
-    width: 32px;
-    display: block;
-    text-indent: -99999;
+.contatos .grid {
+    display: grid;
+    gap: 4em;
 }
-.social a[href*="facebook.com"] {
-    background-image: url(../img/facebook.png);
+@media (min-width: 320px) {
+    
+    .contatos .grid {
+        grid-template-columns: 80px 80px;
+        }
+     .img-portfolio {
+        height: 80px;
+        width: 80px;
+        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
+        object-position: left bottom; /*mover a imagem dentro da caixa*/
+        border-radius:45px;/*faz com que a imagem fique arredondada */
+    }
 }
-.social a[href*="instagram.com"] {
-    background-image: url(../img/instragram.png);
+@media (min-width: 560px) {
+    .contatos .grid {
+    grid-template-columns: 150px 150px;
+    }
+    .img-portfolio {
+        height: 150px;
+        width: 150px;
+        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
+        object-position: left bottom; /*mover a imagem dentro da caixa*/
+        border-radius:45px;/*faz com que a imagem fique arredondada */
+    }
 }
-.social a[href*="linkedin.com"] {
-    background-image: url(../img/linkendin.png);
+@media (min-width: 880px) {
+    .contatos .grid {
+      grid-template-columns: repeat(4, 150px);
+      align-content: center;
+      justify-content: center;
+    }
+    .img-portfolio {
+        height: 150px;
+        width: 150px;
+        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
+        object-position: left bottom; /*mover a imagem dentro da caixa*/
+        border-radius:45px;/*faz com que a imagem fique arredondada */
+   }
 }
-footer {
-    clear: both;
-    padding: 20px 20px;
+.contatoss figure {
+    text-align: center;
+    
 }
-footer .container {
-    position: relative;
-}
-}
+
+

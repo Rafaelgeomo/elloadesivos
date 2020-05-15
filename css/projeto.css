@@ -150,7 +150,7 @@ a:hover {
 }
 @media (min-width: 880px) {
     .projetos .grid {
-      grid-template-columns: repeat(3, 260px);
+      grid-template-columns: repeat(3, 290px);
       align-content: center;
       justify-content: center;
     }
@@ -167,7 +167,6 @@ a:hover {
 }
 .projetos figcaption {
     padding:center;
-
 }
 
   
