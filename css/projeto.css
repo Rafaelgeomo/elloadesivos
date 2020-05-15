@@ -104,11 +104,11 @@ header{
     font-family: 'Comic Neue', cursive;
     font-size: 0.8em;
 }
-a {
+.menu a {
     color:whitesmoke;
     text-decoration: none;
 }
-a:hover {
+.menu a:hover {
     background-color: #ddd;
     color: black;
 }
@@ -167,7 +167,19 @@ a:hover {
 }
 .projetos figcaption {
     padding:center;
+    font-family: 'Noto Sans', serif;
+    color: rgb(218, 118, 118);
 }
+.projetos a {
+    text-decoration: none;
+    opacity: 0.3;
+    
+}
+.projetos a:hover {
+    opacity: 1;
+}
+
+
 
   
 
