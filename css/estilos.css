@@ -15,19 +15,6 @@ body {
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 320px ) {
     body {
-        font-size: 14px;
-    }
-    .menu {
-        width: 100vw;
-        text-align: center;
-    }
-    .menu a {
-        font-size: 0.5em;
-}
-}
-/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
-@media (min-width: 560px ) {
-    body {
         font-size: 17px;
     }
     .menu {
@@ -35,7 +22,21 @@ body {
         text-align: center;
     }
     .menu a {
-        font-size: 0.6em;
+        font-size: 1em;
+}
+}
+/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
+@media (min-width: 560px ) {
+    body {
+        font-size: 21px;
+    }
+    .menu {
+        width: 100vw;
+        text-align: center;
+    }
+    .menu a {
+        font-size: 1.5em;
+        
    }
 }
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
@@ -44,7 +45,7 @@ body {
         font-size: 20px;
     }
     .menu a {
-        font-size: 0.6em;
+        font-size: 1.8em;
 }
 .menu {
     width: 100vw;

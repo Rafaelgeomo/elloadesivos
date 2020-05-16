@@ -15,14 +15,14 @@ body {
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 320px ) {
     body {
-        font-size: 14px;
+        font-size: 17px;
     }
     .menu {
         width: 100vw;
         text-align: center;
     }
     .menu a {
-        font-size: 0.5em;
+        font-size: 1em;
 }
    .projetos h3 {
     font-size: 22px;
@@ -31,14 +31,14 @@ body {
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 560px ) {
     body {
-        font-size: 14px;
+        font-size: 21px;
     }
     .menu {
         width: 100vw;
         text-align: center;
     }
     .menu a {
-        font-size: 0.6em;
+        font-size: 1.5em;
    }
    .projetos .grid {
     align-items: center;
@@ -52,10 +52,10 @@ body {
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
 @media (min-width: 1024px ) {
     body {
-        font-size: 18px;
+        font-size: 20px;
     }
     .menu a {
-        font-size: 0.6em;
+        font-size: 1.8em;
 }
 .menu {
     width: 100vw;
@@ -71,7 +71,7 @@ body {
         font-size: 25px;
     }
     .menu a {
-        font-size: 1em;
+        font-size: 2.1em;
 }
     .projetos h3 {
     font-size: 32px;
