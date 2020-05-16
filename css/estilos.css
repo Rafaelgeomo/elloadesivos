@@ -24,7 +24,6 @@ body {
     .menu a {
         font-size: 0.5em;
 }
-
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 560px ) {
@@ -90,12 +89,12 @@ header{
     font-family: 'Comic Neue', cursive;
     font-size: 0.8em;
 }
-a {
+.menu a {
     color:whitesmoke;
     text-decoration: none;
     
 }
-a:hover {
+.menu a:hover {
     background-color: #ddd;
     color: black;
     
@@ -105,14 +104,13 @@ a:hover {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     font-size: 3em;
-    
-}
+    }
 .site-subtitle  {
     color: darkgrey;
     text-align: center;
     font-family: 'Comic Neue', cursive;
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.7em;
     line-height: 2.5em;
 }
 .texto {
@@ -120,7 +118,7 @@ a:hover {
     text-align: center;
     font-family: 'Comic Neue', cursive;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 2.5em; 
 }
 
