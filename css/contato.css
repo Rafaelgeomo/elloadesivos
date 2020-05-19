@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body {
-    background: rgb(15, 19, 22);
-    background-size: auto 100vh;
+    background: yellow;
+    background-size: auto 50vh;
     color: darkgrey;
     font-size: 15px;
     font-family: 'Noto Sans', serif;
     text-align: justify;
-    height: 100vh;
+    height: 50vh;
 }
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 320px ) {
@@ -70,7 +70,8 @@ header{
     position: fixed;
     width: 100vw;
     top:0;
-    background-color: black;
+    background-color:black;
+    z-index: ;
 }
 .menu ul {
   display:flex;
@@ -86,12 +87,14 @@ header{
     padding: 10px 20px;
     font-family: 'Comic Neue', cursive;
     font-size: 0.8em;
-    color:whitesmoke;
-    text-decoration: none
+    color:yellow;
+    text-decoration: none;
+    transition: background-color 1s, color 1s;
 }
+.menu a:active,
 .menu a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color:yellow;
+    color:black;
 }
 .contatos {
     margin: auto;
@@ -100,10 +103,9 @@ header{
 .contatos h2 {
     font-family: 'Comic Neue', cursive;
     font-size: 3em;
-    color: rgb(218, 118, 118);
-    margin-bottom: 5em;
+    color: black;
+    margin-bottom: 1.5em;
     padding-top: 1.5em;
-    padding: center;
 }
 .contatos .grid {
     display: grid;
@@ -148,7 +150,7 @@ header{
         border-radius:45px;/*faz com que a imagem fique arredondada */
    }
 }
-.contatoss figure {
+.contatos figure {
     text-align: center;
     
 }

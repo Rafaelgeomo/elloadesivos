@@ -19,7 +19,7 @@ function show (photo,title){
     $("a.active").removeClass("active")
     $(".bullets a").eq(position).addClass("active");
 }
-var control=setInterval(next,3000);
+var control=setInterval(next,4000);
 
 //criar a bolinha para mudar a foto na tela
 
