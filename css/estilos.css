@@ -64,10 +64,11 @@ body {
 
 }
 header{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 265px;
 }
 .menu {
     position: fixed;
@@ -105,6 +106,7 @@ header{
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     font-size: 3em;
+
     }
 .site-subtitle  {
     color: darkgrey;
@@ -121,6 +123,41 @@ header{
     font-style: italic;
     font-size: 1em;
     line-height: 2.5em; 
+}
+.main-highlight {
+    position: relative;
+}
+.main-highlight-image{
+    display: block;
+}
+.main-highlight-title {
+    font-size: 2.5em;
+    color: #ffffff;
+    background-color:rgba(0, 0, 0,0.4);/*rgba é com opacidade*/
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.5em;
+    opacity: 1;
+}
+.bullets a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+.bullets {
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+.bullets a.active {
+    color:orange;
+    margin: ;
+
 }
 
 /*
