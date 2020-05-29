@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: yellow;
+    background: #515C09;
     background-size: auto 50vh;
     font-size: 15px;
     font-family: 'Patrick Hand', cursive;
@@ -113,7 +113,6 @@ header{
 }
 .menu li {
     list-style: none;
-    text-shadow: 5px 5px 7px #f5f5f5;
     text-transform: uppercase;
 }
 .menu a {
@@ -121,14 +120,14 @@ header{
     padding: 10px 20px;
     font-family: 'Comic Neue', cursive;
     font-size: 0.8em;
-    color:yellow;
+    color:whitesmoke;
     text-decoration: none;
     transition: background-color 1s, color 1s;
 }
 .menu a:active,
 .menu a:hover {
-    background-color:yellow;
-    color:black;
+    color:#27F6E1;
+    text-decoration: underline;
 }
 .site-title {
     color: black;
@@ -153,7 +152,7 @@ header{
 .titulo {
     text-align: center;
     height: 45vh;
-    background-color: yellow;
+    background-color: #515C09;
     position: relative;
     top:-241px;
     width: 100vw;

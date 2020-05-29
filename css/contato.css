@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: yellow;
+    background: #515C09;
     background-size: auto 50vh;
     color: darkgrey;
     font-size: 15px;
@@ -79,7 +79,6 @@ header{
 }
 .menu li {
     list-style: none;
-    text-shadow: 5px 5px 7px #f5f5f5;
     text-transform: uppercase;
 }
 .menu a {
@@ -87,70 +86,39 @@ header{
     padding: 10px 20px;
     font-family: 'Comic Neue', cursive;
     font-size: 0.8em;
-    color:yellow;
+    color:whitesmoke;
     text-decoration: none;
     transition: background-color 1s, color 1s;
 }
 .menu a:active,
 .menu a:hover {
-    background-color:yellow;
-    color:black;
+    color:#27F6E1;
+    text-decoration: underline;
 }
-.contatos {
-    margin: auto;
-    height: 100vh;
+
+main {
+    width: 940px;
+    margin: -25em auto;
 }
-.contatos h2 {
-    font-family: 'Comic Neue', cursive;
-    font-size: 3em;
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
     color: black;
-    margin-bottom: 1.5em;
-    padding-top: 1.5em;
 }
-.contatos .grid {
-    display: grid;
-    gap: 4em;
+
+.input-padrao {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    width: 50%;
 }
-@media (min-width: 320px) {
-    
-    .contatos .grid {
-        grid-template-columns: 80px 80px;
-        }
-     .img-portfolio {
-        height: 80px;
-        width: 80px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: left bottom; /*mover a imagem dentro da caixa*/
-        border-radius:45px;/*faz com que a imagem fique arredondada */
-    }
-}
-@media (min-width: 560px) {
-    .contatos .grid {
-    grid-template-columns: 150px 150px;
-    }
-    .img-portfolio {
-        height: 150px;
-        width: 150px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: left bottom; /*mover a imagem dentro da caixa*/
-        border-radius:45px;/*faz com que a imagem fique arredondada */
-    }
-}
-@media (min-width: 880px) {
-    .contatos .grid {
-      grid-template-columns: repeat(4, 150px);
-      align-content: center;
-      justify-content: center;
-    }
-    .img-portfolio {
-        height: 150px;
-        width: 150px;
-        object-fit: cover; /*Fazer com que a imagem fique completamente a medida que passou height e width, sem deformar*/
-        object-position: left bottom; /*mover a imagem dentro da caixa*/
-        border-radius:45px;/*faz com que a imagem fique arredondada */
-   }
-}
-.contatos figure {
-    text-align: center;
-    
+
+.checkbox {
+    margin: 20px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
 }
