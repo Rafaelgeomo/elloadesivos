@@ -34,6 +34,14 @@ body {
     font-size: 0.9m;
     line-height: 1.5em; 
 }
+.bullets {
+    height: auto;
+    position: absolute;
+    left: 43%;
+    transform: translatex(-50%);
+    top: 162px;
+    font-size: 21px;
+}
 
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
@@ -59,6 +67,14 @@ body {
     font-size: 1.1m;
     line-height: 2.5em; 
 }
+.bullets {
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: 187px;
+    font-size: 22px;
+}
 }
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
 @media (min-width: 1024px ) {
@@ -83,6 +99,14 @@ body {
     font-size: 2.1m;
     line-height: 2.5em; 
 }
+.bullets {
+    height: auto;
+    position: absolute;
+    left: 65%;
+    transform: translatex(-50%);
+    top: 244px;
+    font-size: 24px;
+}
 
 }
 /*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
@@ -93,9 +117,17 @@ body {
     .menu a {
         font-size: 1em;
 }
+.bullets {
+    height: auto;
+    position: absolute;
+    left: 70%;
+    transform: translatex(-50%);
+    top: 276px;
+    font-size: 29px;
+}
 }
 header{
-    height: 70vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,62 +161,23 @@ header{
     color:#27F6E1;
     text-decoration: underline;
 }
-.site-title {
-    color: black;
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    margin-top: 15px;
-}
-.site-subtitle  {
-    color: rgb(24, 22, 22);
-    text-align: center;
-    font-family: 'Comic Neue', cursive;
-    font-style: italic;
-    margin-top: 20px;
-}
-.texto {
-    color: red;
-    text-align: center;
-    font-family: 'Comic Neue', cursive;
-    font-style: italic;
-    margin-top: 20px;
-}
-.titulo {
-    text-align: center;
-    height: 45vh;
-    background-color: #515C09;
-    position: relative;
-    top:-241px;
+.main-highlight-image{
+    height: 320px;
     width: 100vw;
+    
 }
 .main-highlight {
     position: relative;
     height: 27vh;
-    top: -128px;
+    top: 10px;
 
-}
-.main-highlight-image{
-    display: block;
-    height: 285px;
-    width: 100vw;
-    display: flex;
-    align-content: center;
 }
 .bullets a{
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 4px black;
 }
-.bullets {
-    height: auto;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    display: flex;
-    justify-content: center;
-    top: 250px;
-    gap: 0.7em;
-}
+
 .bullets a.active {
     color:orange;
 }

@@ -24,6 +24,35 @@ body {
     .menu a {
         font-size: 1em;
 }
+main {
+    width: 300px;
+    margin: -32em 25px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px 25px;
+    width: 90%;
+}
+
+.checkbox {
+    margin: 10px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
+}
+.enviar-formulario {
+    font-size: 14px;
+}
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 560px ) {
@@ -37,6 +66,36 @@ body {
     .menu a {
         font-size: 1.5em;
    }
+
+main {
+    width: 520px;
+    margin: -25em 42px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 19px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px 25px;
+    width: 90%;
+}
+
+.checkbox {
+    margin: 20px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
+}
+.enviar-formulario {
+    font-size: 19px;
+}
 }
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
 @media (min-width: 1024px ) {
@@ -49,6 +108,35 @@ body {
 .menu {
     width: 100vw;
     text-align: center;
+}
+main {
+    width: 900px;
+    margin: -25em 108px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: black;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 5px;
+    padding: 13px 25px;
+    width: 90%;
+}
+
+.checkbox {
+    margin: 20px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
+}
+.enviar-formulario {
+    font-size: 20px;
 }
 }
 /*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
@@ -94,31 +182,4 @@ header{
 .menu a:hover {
     color:#27F6E1;
     text-decoration: underline;
-}
-
-main {
-    width: 940px;
-    margin: -25em auto;
-}
-
-form {
-    margin: 40px 0;
-}
-
-form label, form p {
-    display: block;
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: black;
-}
-
-.input-padrao {
-    display: block;
-    margin-bottom: 10px;
-    padding: 10px 25px;
-    width: 50%;
-}
-
-.checkbox {
-    margin: 20px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
 }

@@ -12,10 +12,21 @@ function next () {
    } else {
        position=0;
    }
+   
+}
+
+function previous () {
+    show(photos[position],title[position]);
+   if(position>0) {
+    position=position-1;
+
+   } else {
+       position=4;
+   }
+   
 }
 function show (photo,title){
     document.querySelector(".main-highlight-image").src=photo;
-    document.querySelector(".main-highlight-title").textContent=title;
     $("a.active").removeClass("active")
     $(".bullets a").eq(position).addClass("active");
 }

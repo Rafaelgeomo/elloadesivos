@@ -6,44 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rafael Jeronymo</title>
   <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/projeto.css">
-  <link rel="stylesheet" href="css/contato.css">
-
   <link
     href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lobster&family=Noto+Sans:wght@400;700&display=swap"
     rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,300&family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,300&family=Patrick+Hand&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <header>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="projeto.html">Projetos</a></li>
-        <li><a href="contato.html">Contatos</a></li>
+    <div class="menu">
+      <h1><img src=""></h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="projeto.html">Projetos</a></li>
+          <li><a href="contato.html">Contatos</a></li>
         </ul>
-    </nav>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
     <section class="botoes">
       <figure class="main-highlight">
-        <img class="main-highlight-image"src="img/adesivos2.jpeg">
-        <figcaption class="main-highlight-title"></figcaption>
-         <nav class="bullets"></nav>
-            <!--<a  class="active" href="">&bullet;</a>
-            <a href="">&bullet;</a>
-            <a href="">&bullet;</a>
-            <a href="">&bullet;</a>
-            <a href="">&bullet;</a>-->
-        </figure>
+        <span class="seta-direita" onclick="next()">></span>
+        <span class="seta-esquerda" onclick="previous()"><</span>
+        <img class="main-highlight-image" src="img/adesivos2.jpeg">
+        <nav class="bullets"></nav>
+        <!--<a  class="active" href="">&bullet;</a>
+              <a href="">&bullet;</a>
+              <a href="">&bullet;</a>
+              <a href="">&bullet;</a>
+              <a href="">&bullet;</a>-->
+      </figure>
     </section>
-    </header>
-    <main>
-      <div class="titulo">
-        <h1 class="site-title">ELLO ADESIVOS</h1>
-        <h2 class="site-subtitle">Variedades de adesivos</h2>
-        <h2 class="texto">Venha nos conhecer !!!</h2>
-      </div>
-
-    </main>
+  </main>
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/banner.js"></script>
 </body>
