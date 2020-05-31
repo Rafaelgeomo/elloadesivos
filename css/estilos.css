@@ -135,33 +135,39 @@ header{
     margin-left: 10px;
 }
 @media (min-width: 320px ) {
+    header{
+        height: 15vh;
+    }
     .main-highlight-image{
-        height: 220px;
+        height: 100px;
         width: 100vw;
     }
     .bullets {
         font-size: 37px;
-        top: 190px;
+        top: 78px;
     }
     .seta-direita, .seta-esquerda {
-     margin: -123px 0;
-     width: 25px;
-    height: 18px;
+     margin: -65px 0;
+     width: 21px;
+    height: 21px;
     }
 
 }
 @media (min-width: 460px ) {
+    header{
+        height: 15vh;
+    }
     .main-highlight-image{
-        height: 270px;
+        height: 150px;
         width: 100vw;
     }
     .bullets {
         font-size: 40px;
-        top: 235px;
+        top: 124px;
     }
     .seta-direita, .seta-esquerda {
-     margin: -160px 0;
-     width: 35px;
+     margin: -90px 0;
+     width: 25px;
     height: 20px;
     }
 }
