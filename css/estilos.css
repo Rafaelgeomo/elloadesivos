@@ -127,7 +127,6 @@ header{
     height: 35px;
     position: relative;
     margin: -215px 0;
-    text-shadow: 1px 1px 4px black;
 }
 .seta-direita {
     margin-right: 10px;
@@ -141,18 +140,29 @@ header{
         width: 100vw;
     }
     .bullets {
-        top: 260px;
-        font-size: 35px;
+        font-size: 37px;
+        top: 190px;
+    }
+    .seta-direita, .seta-esquerda {
+     margin: -123px 0;
+     width: 25px;
+    height: 18px;
     }
 
 }
-@media (min-width: 560px ) {
+@media (min-width: 460px ) {
     .main-highlight-image{
         height: 270px;
         width: 100vw;
     }
     .bullets {
         font-size: 40px;
+        top: 235px;
+    }
+    .seta-direita, .seta-esquerda {
+     margin: -160px 0;
+     width: 35px;
+    height: 20px;
     }
 }
 
@@ -162,8 +172,13 @@ header{
         width: 100vw;
     }
     .bullets {
-        top: 260px;
         font-size: 40px;
+        top: 292px;
+    }
+    .seta-direita, .seta-esquerda {
+     margin: -192px 0;
+     width: 40px;
+    height: 25px;
     }
 }
 /*
