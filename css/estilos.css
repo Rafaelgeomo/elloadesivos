@@ -120,13 +120,19 @@ header{
 }
 
 .bullets a.active {
-    color:orange;
+    color: turquoise;
 }
 .seta-direita, .seta-esquerda {
     width: 50px;
     height: 35px;
     position: relative;
     margin: -215px 0;
+    opacity: 1;
+}
+.seta-esquerda:hover, 
+.seta-direita:hover {
+    opacity: .4;
+    
 }
 .seta-direita {
     margin-right: 10px;
