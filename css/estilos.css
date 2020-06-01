@@ -11,55 +11,6 @@ body {
     text-align: justify;
     height: 50vh;
 }
-/*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
-@media (min-width: 320px ) {
-    body {
-        font-size: 17px;
-    }
-    .menu {
-        width: 100vw;
-        text-align: center;
-    }
-    .menu a {
-        font-size: 1em;
-}
-}
-/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
-@media (min-width: 560px ) {
-    body {
-        font-size: 21px;
-    }
-    .menu {
-        width: 100vw;
-        text-align: center;
-    }
-    .menu a {
-        font-size: 1.5em;
-}
-}
-/*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
-@media (min-width: 1024px ) {
-    body {
-        font-size: 20px;
-    }
-    .menu a {
-        font-size: 1.8em;
-}
-.menu {
-    width: 100vw;
-    text-align: center;
-}
-}
-/*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
-@media (min-width: 1440px ) {
-    body {
-        font-size: 25px;
-    }
-    .menu a {
-        font-size: 1em;
-}
-
-}
 header{
     height: 30vh;
     display: flex;
@@ -85,7 +36,6 @@ header{
     display:block;
     padding: 10px 20px;
     font-family: 'Comic Neue', cursive;
-    font-size: 0.8em;
     color:whitesmoke;
     text-decoration: none;
     transition: background-color 1s, color 1s;
@@ -132,7 +82,6 @@ header{
 .seta-esquerda:hover, 
 .seta-direita:hover {
     opacity: .4;
-    
 }
 .seta-direita {
     margin-right: 10px;
@@ -140,6 +89,56 @@ header{
 .seta-esquerda {
     margin-left: 10px;
 }
+/*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
+@media (min-width: 320px ) {
+    body {
+        font-size: 17px;
+    }
+    .menu {
+        width: 100vw;
+        text-align: center;
+    }
+    .menu a {
+        font-size: .6em;
+}
+}
+/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
+@media (min-width: 460px ) {
+    body {
+        font-size: 21px;
+    }
+    .menu {
+        width: 100vw;
+        text-align: center;
+    }
+    .menu a {
+        font-size: .7em;
+}
+}
+/*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
+@media (min-width: 1024px ) {
+    body {
+        font-size: 20px;
+    }
+    .menu a {
+        font-size: 1em;
+}
+.menu {
+    width: 100vw;
+    text-align: center;
+}
+}
+/*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
+@media (min-width: 1440px ) {
+    body {
+        font-size: 25px;
+    }
+    .menu a {
+        font-size: 1em;
+}
+
+}
+
 @media (min-width: 320px ) {
     header{
         height: 15vh;

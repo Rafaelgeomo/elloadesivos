@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #515C09;
+    background-size: auto 50vh;
+    color: darkgrey;
+    font-size: 15px;
+    font-family: 'Noto Sans', serif;
+    text-align: justify;
+    height: 50vh;
+}
+header{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    position: fixed;
+    width: 100vw;
+    top:0;
+    background-color:black;
+    z-index: 1;
+}
+.menu ul {
+  display:flex;
+  justify-content: space-evenly;
+}
+.menu li {
+    list-style: none;
+    text-transform: uppercase;
+}
+.menu a {
+    display:block;
+    padding: 10px 20px;
+    font-family: 'Comic Neue', cursive;
+    color:whitesmoke;
+    text-decoration: none;
+    transition: background-color 1s, color 1s;
+}
+.menu a:active,
+.menu a:hover {
+    color:#27F6E1;
+}
+
+/*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
+@media (min-width: 320px ) {
+    body {
+        font-size: 17px;
+    }
+    .menu {
+        width: 100vw;
+        text-align: center;
+    }
+    .menu a {
+        font-size: .6em;
+    }
+}
+/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
+@media (min-width: 460px ) {
+    body {
+        font-size: 21px;
+    }
+    .menu {
+        width: 100vw;
+        text-align: center;
+    }
+    .menu a {
+        font-size: .7em;
+   }
+}
+/*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
+@media (min-width: 1024px ) {
+    body {
+        font-size: 20px;
+    }
+    .menu a {
+        font-size: 1em;
+}
+.menu {
+    width: 100vw;
+    text-align: center;
+}
+}

@@ -12,6 +12,49 @@ body {
     text-align: justify;
     height: 50vh;
 }
+header{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    position: fixed;
+    width: 100vw;
+    top:0;
+    background-color:black;
+    z-index: 1;
+}
+.menu ul {
+  display:flex;
+  justify-content: space-evenly;
+}
+.menu li {
+    list-style: none;
+    text-transform: uppercase;
+}
+.menu a {
+    display:block;
+    padding: 10px 20px;
+    font-family: 'Comic Neue', cursive;
+    color:whitesmoke;
+    text-decoration: none;
+    transition: background-color 1s, color 1s;
+}
+.menu a:active,
+.menu a:hover {
+    color:#27F6E1;
+    text-decoration: underline;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 320px ) {
     body {
@@ -22,7 +65,7 @@ body {
         text-align: center;
     }
     .menu a {
-        font-size: 1em;
+        font-size: .6em;
 }
 main {
     width: 300px;
@@ -55,7 +98,7 @@ form label, form p {
 }
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
-@media (min-width: 560px ) {
+@media (min-width: 460px ) {
     body {
         font-size: 21px;
     }
@@ -64,7 +107,7 @@ form label, form p {
         text-align: center;
     }
     .menu a {
-        font-size: 1.5em;
+        font-size: .7em;
    }
 
 main {
@@ -103,7 +146,7 @@ form label, form p {
         font-size: 20px;
     }
     .menu a {
-        font-size: 1.8em;
+        font-size: 1em;
 }
 .menu {
     width: 100vw;
@@ -148,39 +191,5 @@ form label, form p{
         font-size: 1em;
 }
 }
-header{
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.menu {
-    position: fixed;
-    width: 100vw;
-    top:0;
-    background-color:black;
-    z-index: ;
-}
-.menu ul {
-  display:flex;
-  justify-content: space-evenly;
-}
-.menu li {
-    list-style: none;
-    text-transform: uppercase;
-}
-.menu a {
-    display:block;
-    padding: 10px 20px;
-    font-family: 'Comic Neue', cursive;
-    font-size: 0.8em;
-    color:whitesmoke;
-    text-decoration: none;
-    transition: background-color 1s, color 1s;
-}
-.menu a:active,
-.menu a:hover {
-    color:#27F6E1;
-    text-decoration: underline;
-}
+
 
