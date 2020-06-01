@@ -50,7 +50,7 @@ form label, form p {
 .checkbox {
     margin: 10px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
 }
-.enviar-formulario {
+.enviar {
     font-size: 14px;
 }
 }
@@ -93,8 +93,8 @@ form label, form p {
 .checkbox {
     margin: 20px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
 }
-.enviar-formulario {
-    font-size: 19px;
+.enviar {
+    font-size: 17px;
 }
 }
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
@@ -118,7 +118,7 @@ form {
     margin: 20px 0;
 }
 
-form label, form p {
+form label, form p{
     display: block;
     font-size: 20px;
     margin-bottom: 6px;
@@ -135,8 +135,8 @@ form label, form p {
 .checkbox {
     margin: 20px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
 }
-.enviar-formulario {
-    font-size: 20px;
+.enviar {
+    font-size: 18px;
 }
 }
 /*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
@@ -183,3 +183,4 @@ header{
     color:#27F6E1;
     text-decoration: underline;
 }
+
