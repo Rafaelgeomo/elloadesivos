@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #515C09;
+    background: linear-gradient(45deg,gray, rgb(250, 250, 102),gray);
     background-size: auto 50vh;
     font-size: 15px;
     font-family: 'Patrick Hand', cursive;
@@ -67,15 +67,12 @@ header{
     color: white;
     text-shadow: 1px 1px 4px black;
 }
-
 .bullets a.active {
     color: turquoise;
 }
 .seta-direita, .seta-esquerda {
-    width: 50px;
-    height: 35px;
     position: relative;
-    margin: -215px 0;
+    margin: 0 10px;
 }
 .seta-esquerda:hover, 
 .seta-direita:hover {
@@ -83,111 +80,139 @@ header{
 }
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 320px ) {
-    body {
-        font-size: 17px;
-    }
-    .menu {
-        width: 100vw;
-        text-align: center;
-    }
-    .menu a {
-        font-size: .6em;
-}
-}
-/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
-@media (min-width: 460px ) {
-    body {
-        font-size: 21px;
-    }
-    .menu {
-        width: 100vw;
-        text-align: center;
-    }
-    .menu a {
-        font-size: .7em;
-}
-}
-/*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
-@media (min-width: 1024px ) {
-    body {
-        font-size: 20px;
-    }
-    .menu a {
-        font-size: 1em;
+body {
+    font-size: 17px;
 }
 .menu {
     width: 100vw;
     text-align: center;
 }
+.menu a {
+    font-size: .6em;
+}
+header{
+    height: 15vh;
+}
+.main-highlight-image{
+    height: 100px;
+    width: 100vw;
+}
+.bullets {
+    font-size: 37px;
+    top: 78px;
+}
+.seta-direita, .seta-esquerda {
+ width: 21px;
+ height: 21px;
+ top: 68px;
+}
+}
+/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
+@media (min-width: 460px ) {
+body {
+    font-size: 21px;
+    }
+.menu {
+    width: 100vw;
+    text-align: center;
+    }
+.menu a {
+    font-size: .7em;
+}
+header{
+    height: 15vh;
+}
+.main-highlight-image{
+    height: 150px;
+    width: 100vw;
+}
+.bullets {
+    font-size: 40px;
+    top: 124px;
+}
+.seta-direita, .seta-esquerda {
+ width: 25px;
+ height: 20px;
+ top: 95px;
+ }
+}
+
+@media (min-width: 880px ) {
+body {
+    font-size: 20px;
+}
+.menu a {
+    font-size: 1em;
+}
+.menu {
+    width: 100vw;
+    text-align: center;
+}
+.main-highlight-image{
+    height: 330px;
+    width: 100vw;
+}
+.bullets {
+    font-size: 40px;
+    top: 292px;
+}
+.seta-direita, .seta-esquerda {
+    width: 40px;
+    height: 25px;
+    top: 190px;
+}
+}
+/*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
+@media (min-width: 1024px ) {
+body {
+    font-size: 20px;
+    }
+.menu a {
+    font-size: 1em;
+}
+.menu {
+    width: 100vw;
+    text-align: center;
+}
+.main-highlight-image{
+    height: 330px;
+    width: 100vw;
+}
+.bullets {
+    font-size: 40px;
+    top: 292px;
+}
+.seta-direita, .seta-esquerda {
+ width: 40px;
+ height: 25px;
+ top: 190px;
+}
 }
 /*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
 @media (min-width: 1440px ) {
-    body {
-        font-size: 25px;
-    }
-    .menu a {
-        font-size: 1em;
+body {
+    font-size: 25px;
 }
-
+.menu a {
+    font-size: 1em;
 }
-
-@media (min-width: 320px ) {
-    header{
-        height: 15vh;
-    }
-    .main-highlight-image{
-        height: 100px;
-        width: 100vw;
-    }
-    .bullets {
-        font-size: 37px;
-        top: 78px;
-    }
-    .seta-direita, .seta-esquerda {
-     margin: -65px 0;
-     width: 21px;
-     height: 21px;
-     margin-right: 10px;
-     margin-left: 10px;
-    }
-
+.menu {
+    width: 100vw;
+    text-align: center;
 }
-@media (min-width: 460px ) {
-    header{
-        height: 15vh;
-    }
-    .main-highlight-image{
-        height: 150px;
-        width: 100vw;
-    }
-    .bullets {
-        font-size: 40px;
-        top: 124px;
-    }
-    .seta-direita, .seta-esquerda {
-     margin: -90px 0;
-     width: 25px;
-     height: 20px;
-     margin-right: 10px;
-     margin-left: 10px;
-    }
+.main-highlight-image{
+    height: 330px;
+    width: 100vw;
 }
-@media (min-width: 1024px ) {
-    .main-highlight-image{
-        height: 330px;
-        width: 100vw;
-    }
-    .bullets {
-        font-size: 40px;
-        top: 292px;
-    }
-    .seta-direita, .seta-esquerda {
-     margin: -192px 0;
-     width: 40px;
-     height: 25px;
-     margin-right: 10px;
-     margin-left: 10px;
-    }
+.bullets {
+    font-size: 40px;
+    top: 292px;
+}
+.seta-direita, .seta-esquerda {
+ width: 40px;
+ height: 25px;
+ top: 190px;
+}
 }
 /*
 .site-subtitle {
