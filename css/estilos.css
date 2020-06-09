@@ -56,7 +56,7 @@ header{
      text-shadow: 1px 1px 6px rgb(29, 29, 28);
 }
 .main-highlight-image{
-    height: 120px;
+    height: 90px;
     width: 100vw;
 }
 .main-highlight {
@@ -102,17 +102,19 @@ header{
 header{
     height: 26vh;
 }
-@media (min-width: 992px ) {
 .main-highlight-image{
-    height: 195px;
+    height: 220px;
     width: 100vw;
 }
 .bullets {
-    top: 167px;
+    top: 196px;
 }
 .seta-direita, .seta-esquerda {
-   top: 120px;
-}
+    top: 145px;
+ }
+@media (min-width: 992px ) {
+
+
 /*
 .site-subtitle {
     font-style: italic;
