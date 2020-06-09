@@ -59,17 +59,12 @@ header{
     height: 90px;
     width: 100vw;
 }
-.main-highlight {
-    position: relative;
-    height: 27vh;
-    top: 10px;
-}
 .bullets {
     height: auto;
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-    top: 128px;
+    top: 203px;
     font-size: 40px;
 }
 .bullets a{
@@ -85,7 +80,7 @@ header{
     margin: 0 10px;
     width: 30px;
     height: 25px;
-    top: 95px;
+    top: 60px;
 }
 .seta-esquerda:hover, 
 .seta-direita:hover {
@@ -103,17 +98,17 @@ header{
     height: 26vh;
 }
 .main-highlight-image{
-    height: 90px;
+    height: 220px;
     width: 100vw;
 }
 .bullets {
-    top: 196px;
+    top: 355px;
 }
 .seta-direita, .seta-esquerda {
-    top: 145px;
+    top: 130px;
  }
 @media (min-width: 992px ) {
-
+}
 
 /*
 .site-subtitle {
