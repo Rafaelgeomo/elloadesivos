@@ -12,7 +12,7 @@ body {
     height: 50vh;
 }
 header{
-    height: 20vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,19 +20,19 @@ header{
 .menu {
     position: fixed;
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     top:0;
     background: linear-gradient(#F7F7F7,#E0E0E0, #939393);
     z-index: 1;
 }
-.menu h1 img {
+.menu img {
     height: 80px;
     width: 80px;
     float: left;
-    margin: 10px 5px;
+    margin: 10px 10px;
     border-radius: 70px;
     position: relative;
-    top: -34px;
+    top: -50px;
 }
 .menu ul {
   display:flex;
@@ -43,20 +43,20 @@ header{
     text-transform: uppercase;
 }
 .menu a {
-    display: block;
+    display:block;
     position: absolute;
     font-family: 'Comic Neue', cursive;
     color:black;
     text-decoration: none;
     transition: background-color 1s, color 1s;
-    top:30px;
+    top:50px;
 }
 .menu a:active,
 .menu a:hover {
-     text-shadow: 1px 1px 6px rgb(29, 29, 28);
+    color:#27F6E1;
 }
 .main-highlight-image{
-    height: 150px;
+    height: 380px;
     width: 100vw;
 }
 .main-highlight {
@@ -69,7 +69,7 @@ header{
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-    top: 128px;
+    top: 340px;
     font-size: 40px;
 }
 .bullets a{
@@ -78,14 +78,11 @@ header{
     text-shadow: 1px 1px 4px black;
 }
 .bullets a.active {
-    color: rgb(224, 155, 64);
+    color: turquoise;
 }
 .seta-direita, .seta-esquerda {
     position: relative;
     margin: 0 10px;
-    width: 30px;
-    height: 25px;
-    top: 95px;
 }
 .seta-esquerda:hover, 
 .seta-direita:hover {
@@ -93,25 +90,132 @@ header{
 }
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 576px ) {
+body {
+    font-size: 17px;
 }
-/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
-@media (min-width: 768px ) {
 .menu {
-    height: 26vh;
+    width: 100vw;
+    text-align: center;
 }
-header{
-    height: 26vh;
+.menu a {
+    font-size: .6em;
 }
-@media (min-width: 992px ) {
 .main-highlight-image{
-    height: 195px;
+    height: 100px;
     width: 100vw;
 }
 .bullets {
-    top: 167px;
+    font-size: 37px;
+    top: 78px;
 }
 .seta-direita, .seta-esquerda {
-   top: 120px;
+ width: 21px;
+ height: 21px;
+ top: 68px;
+}
+}
+/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
+@media (min-width: 768px ) {
+body {
+    font-size: 21px;
+    }
+.menu {
+    width: 100vw;
+    text-align: center;
+}
+.menu a {
+    font-size: .7em;
+}
+.main-highlight-image{
+    height: 150px;
+    width: 100vw;
+}
+.bullets {
+    font-size: 40px;
+    top: 124px;
+}
+.seta-direita, .seta-esquerda {
+ width: 25px;
+ height: 20px;
+ top: 95px;
+ }
+}
+@media (min-width: 992px ) {
+body {
+    font-size: 20px;
+}
+.menu a {
+    font-size: 1em;
+}
+.menu {
+    width: 100vw;
+    text-align: center;
+}
+.main-highlight-image{
+    height: 330px;
+    width: 100vw;
+}
+.bullets {
+    font-size: 40px;
+    top: 292px;
+}
+.seta-direita, .seta-esquerda {
+    width: 40px;
+    height: 25px;
+    top: 190px;
+}
+}
+/*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
+@media (min-width: 1024px ) {
+body {
+    font-size: 20px;
+    }
+.menu a {
+    font-size: 1em;
+}
+.menu {
+    width: 100vw;
+    text-align: center;
+}
+.main-highlight-image{
+    height: 330px;
+    width: 100vw;
+}
+.bullets {
+    font-size: 40px;
+    top: 292px;
+}
+.seta-direita, .seta-esquerda {
+ width: 40px;
+ height: 25px;
+ top: 190px;
+}
+}
+/*Se a tela tiver pelo menos 1440 (tv) pixels vai carregar estes estilos*/
+@media (min-width: 1440px ) {
+body {
+    font-size: 25px;
+}
+.menu a {
+    font-size: 1em;
+}
+.menu {
+    width: 100vw;
+    text-align: center;
+}
+.main-highlight-image{
+    height: 330px;
+    width: 100vw;
+}
+.bullets {
+    font-size: 40px;
+    top: 292px;
+}
+.seta-direita, .seta-esquerda {
+ width: 40px;
+ height: 25px;
+ top: 190px;
+}
 }
 /*
 .site-subtitle {
