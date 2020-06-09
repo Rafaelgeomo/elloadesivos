@@ -18,7 +18,6 @@ header{
     align-items: center;
 }
 .menu {
-    position: fixed;
     width: 100vw;
     height: 20vh;
     top:0;
@@ -65,15 +64,15 @@ form {
 }
 form label, form p {
     display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
+    font-size: 16px;
+    margin-bottom: 3px;
     color: black;
 }
 .input-padrao {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     padding: 5px 25px;
-    width: 90%;
+    width: 80%;
 }
 .checkbox {
     margin: 10px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
