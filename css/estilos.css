@@ -59,6 +59,16 @@ header{
     height: 90px;
     width: 100vw;
 }
+.main-highlight i {
+    font-size: 20px;
+    color: rgb(207, 207, 207);
+    margin: 0 5px;
+    position: relative;
+    top: 130px;
+}
+.main-highlight i:hover {
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+}
 .bullets {
     height: auto;
     position: absolute;
@@ -75,19 +85,11 @@ header{
 .bullets a.active {
     color: rgb(224, 155, 64);
 }
-.seta-direita, .seta-esquerda {
-    position: relative;
-    margin: 0 10px;
-    width: 20px;
-    height: 15px;
-    top: 60px;
-}
-.seta-esquerda:hover, 
-.seta-direita:hover {
-    transform: scale(1.4);
-}
 /*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
 @media (min-width: 576px ) {
+.main-highlight i {
+    top: 55px;
+}
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 768px ) {
@@ -101,14 +103,17 @@ header{
     height: 220px;
     width: 100vw;
 }
+.main-highlight i {
+    top: 120px;
+}
 .bullets {
     top: 285px;
 }
-.seta-direita, .seta-esquerda {
-    top: 130px;
-}
 }
 @media (min-width: 992px ) {
+.bullets {
+    top: 350px;
+}
 }
 
 /*
