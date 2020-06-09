@@ -64,7 +64,7 @@ header{
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-    top: 203px;
+    top: 224px;
     font-size: 40px;
 }
 .bullets a{
@@ -78,8 +78,8 @@ header{
 .seta-direita, .seta-esquerda {
     position: relative;
     margin: 0 10px;
-    width: 30px;
-    height: 25px;
+    width: 20px;
+    height: 15px;
     top: 60px;
 }
 .seta-esquerda:hover, 
@@ -102,7 +102,7 @@ header{
     width: 100vw;
 }
 .bullets {
-    top: 355px;
+    top: 285px;
 }
 .seta-direita, .seta-esquerda {
     top: 130px;
