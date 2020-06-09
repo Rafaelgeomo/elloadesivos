@@ -61,6 +61,12 @@ header{
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 768px ) {
+.menu {
+    height: 26vh;
+}
+header{
+    height: 26vh;
+}
 }
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
 @media (min-width: 992px ) {
