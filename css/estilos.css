@@ -11,7 +11,7 @@ body {
     height: 50vh;
 }
 header{
-    height: 20vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,6 @@ header{
 .menu {
     position: fixed;
     width: 100vw;
-    height: 20vh;
     top:0;
     background: url("../img/fundologo.jpg");
     z-index: 1;
@@ -47,7 +46,7 @@ header{
     font-family: 'Abril Fatface', cursive;
     color:rgb(248, 201, 45);
     text-decoration: none;
-    font-size: 19px;
+    font-size: 15px;
     transition: background-color 1s, color 1s;
     top:30px;
 }
@@ -93,11 +92,8 @@ header{
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 768px ) {
-.menu {
-    height: 26vh;
-}
-header{
-    height: 26vh;
+.menu a {
+    font-size: 19px;
 }
 .main-highlight-image{
     height: 220px;

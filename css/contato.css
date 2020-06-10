@@ -12,14 +12,13 @@ body {
     height: 50vh;
 }
 header{
-    height: 20vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .menu {
     width: 100vw;
-    height: 20vh;
     top:0;
     background: url("../img/fundologo.jpg");
     z-index: 1;
@@ -47,10 +46,9 @@ header{
     font-family: 'Abril Fatface', cursive;
     color:rgb(248, 201, 45);
     text-decoration: none;
-    font-size: 19px;
+    font-size: 15px;
     transition: background-color 1s, color 1s;
     top:30px;
-
 }
 .menu a:active,
 .menu a:hover {
@@ -61,19 +59,19 @@ main {
     margin: 35px 10px;
 }
 form {
-    margin: 20px 0;
+    margin: 0px 5px;
 }
 form label, form p {
     display: block;
     font-size: 16px;
     margin-bottom: 3px;
-    color: black;
+    color: whitesmoke;
 }
 .input-padrao {
     display: block;
     margin-bottom: 3px;
     padding: 5px 25px;
-    width: 80%;
+    width: 65vw;
 }
 .checkbox {
     margin: 10px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
@@ -92,11 +90,18 @@ form label, form p {
 }
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 768px ) {
-.menu {
-    height: 26vh;
+.menu a {
+    font-size: 19px;
 }
-header{
-    height: 26vh;
+form {
+    margin: 70px 5px;
+}
+.enviar {
+    width: 70%;
+}
+form label, form p {
+    font-size: 19px;
+    margin-bottom: 6px;
 }
 }
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
