@@ -73,7 +73,7 @@ header{
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-    top: 214px;
+    top: 188px;
     font-size: 40px;
 }
 .bullets a{
@@ -103,13 +103,10 @@ header{
     top: 120px;
 }
 .bullets {
-    top: 285px;
+    top: 275px;
 }
 }
 @media (min-width: 992px ) {
-.bullets {
-    top: 350px;
-}
 }
 
 /*
