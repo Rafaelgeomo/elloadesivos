@@ -35,8 +35,6 @@ var control=setInterval(next,10000);
 //criar a bolinha para mudar a foto na tela
 
 
-generateBullets(photos.length);
-
 function activate () {
     position=($(this).data("id"));
     clearInterval(control);
