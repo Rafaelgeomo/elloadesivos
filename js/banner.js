@@ -1,6 +1,6 @@
 console.log("===Banner===");
 // setup
-var photos= ["img/adesivos1.jpeg","img/adesivos2.jpeg","img/adesivos3.jpeg","img/adesivos4.jpeg","img/adesivos5.jpeg"];
+var photos= ["img/adesivos.jpeg","img/adesivos2.jpeg","img/adesivos3.jpg","img/adesivos4.jpeg","img/adesivos5.jpeg"];
 var title= ["","","","",""];
 var position=0;
 
@@ -34,14 +34,7 @@ var control=setInterval(next,10000);
 
 //criar a bolinha para mudar a foto na tela
 
-function generateBullets (qtd) {
 
-    for (var i=0; i<qtd; i++){
-    var bullet = $("<a>").html("&bullet; ").attr("href","#").data("id",i);
-    $(".bullets").append(bullet);
-    } 
-    $(".bullets a").eq(position).addClass("active");
-}
 generateBullets(photos.length);
 
 function activate () {

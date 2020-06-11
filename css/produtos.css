@@ -50,7 +50,6 @@ nav {
 .topnav .icon {
     display: none;
 }
-
 @media (max-width: 576px ) {
 .topnav a:not(.topnav){display: none;}
 .topnav a.icon {
@@ -74,11 +73,6 @@ nav {
     top: 0;
 }
 }
-/*Se a tela tiver pelo menos 320 pixels vai carregar estes estilos*/
-@media (min-width: 576px ) {
-    
-}
-/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 768px ) {
 .topnav a {
     font-size: 22px;

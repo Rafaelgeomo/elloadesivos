@@ -63,22 +63,6 @@ nav {
 .main-highlight i:hover {
     text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
-.bullets {
-    height: auto;
-    position: absolute;
-    left: auto;
-    right: auto;
-    transform: translatex(-50%);
-    font-size: 40px;
-}
-.bullets a{
-    text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 4px black;
-}
-.bullets a.active {
-    color: rgb(224, 155, 64);
-}
 
 @media (max-width: 576px ) {
 .topnav a:not(.topnav){display: none;}
@@ -103,12 +87,6 @@ nav {
     top: 0;
 }
 }
-@media (min-width: 576px ) {
-.main-highlight i {
-    top: 55px;
-}
-}
-/*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 768px ) {
 .topnav a {
     font-size: 22px;
@@ -119,9 +97,6 @@ nav {
 }
 .main-highlight i {
     top: 120px;
-}
-.bullets {
-    top: 275px;
 }
 header img {
     height: 105px;
