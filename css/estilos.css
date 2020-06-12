@@ -17,11 +17,13 @@ header{
     align-items: center;
 }
 header img {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     float: left;
     margin: 0 0 0 13px;
     border-radius: 70px;
+    position: absolute;
+    top: 10px;
 }
 .topnav {
     overflow: hidden;
@@ -62,7 +64,6 @@ nav {
 .main-highlight i:hover {
     text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
-
 @media (max-width: 576px ) {
 .topnav a:not(.topnav){display: none;}
 .topnav a.icon {
@@ -106,11 +107,12 @@ header img {
     height: 105px;
     width: 105px;
     margin: 38px 0 0 13px;
+    top: -29px;
 }
 }
 @media (min-width: 992px ) {
 .topnav a {
-    right: -795px;
+    right: -1014px;
 }
 }
 

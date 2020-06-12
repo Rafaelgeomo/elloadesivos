@@ -18,11 +18,13 @@ header{
     align-items: center;
 }
 header img {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     float: left;
     margin: 0 0 0 13px;
     border-radius: 70px;
+    position: absolute;
+    top: 10px;
 }
 nav {
     width: 100vw;
@@ -124,12 +126,13 @@ header img {
     height: 105px;
     width: 105px;
     margin: 38px 0 0 13px;
+    top: -29px;
 }
 }
 /*Se a tela tiver pelo menos 1024 (laptop) pixels vai carregar estes estilos*/
 @media (min-width: 992px ) {
 .topnav a {
-    right: -795px;
+    right: -917px;
 }
 }
 
