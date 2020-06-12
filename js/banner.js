@@ -1,6 +1,6 @@
 console.log("===Banner===");
 // setup
-var photos= ["img/adesivos.jpeg","img/adesivos2.jpeg","img/adesivos3.jpg","img/adesivos4.jpeg","img/adesivos5.jpeg"];
+var photos= ["img/adesivos.jpeg","img/adesivos5.jpeg","img/adesivos3.jpg","img/adesivos4.jpeg","img/adesivos2.jpeg"];
 var title= ["","","","",""];
 var position=0;
 
