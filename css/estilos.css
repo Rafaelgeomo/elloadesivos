@@ -70,6 +70,7 @@ nav {
     float: right;
     display: block;
     top: -3px;
+    font-size: 35px;
 }
 .topnav a:hover,
 .topnav a:active {
