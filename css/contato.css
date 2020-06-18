@@ -7,7 +7,7 @@ body {
     background: url("../img/fundologo.jpg");
     background-size: auto 50vh;
     font-size: 15px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
     height: 50vh;
 }
@@ -50,6 +50,8 @@ nav {
 main {
     width: 300px;
     margin: 35px 10px;
+    height: 90vh;
+
 }
 form {
     margin: 0px 5px;
@@ -78,6 +80,76 @@ form label, form p {
     border: none;
     border-radius: 5px;
 }
+footer {
+    background: #CCCCCC;
+    bottom: 0;
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    margin-top: 46px;
+    padding: 5px 0;
+}
+
+.footer-extra {
+    background:gray;
+    color:#ffffff;
+    font-size: 13px;
+    position: absolute;
+    float: left;
+    width: 100vw;
+    bottom: 0;
+}
+
+.footer-extra img {
+    position: relative;
+    top: 10px;
+    padding: 0 10px;
+}
+
+.copyright {
+    position: relative;
+    padding-left: 50px;
+    top: -15px;
+    
+}
+.forma-pagto img {
+    width: 55px;
+    height: 34px;
+    margin: 3px 25px 10px 10px;
+}
+
+footer h4 {
+    margin: 15px 10px;
+    font-size: 16px;
+}
+
+.btn-rede {
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: 0;
+    color: whitesmoke;
+    margin: 0 10px;
+    text-shadow: 3px 1px 12px black;
+    transition: color 1s;
+}
+.btn-rede:hover {
+    color: rgb(71, 71, 71);
+}
+.contato-footer a {
+    text-decoration: none;
+    color: black;
+}
+.tel,.email,.localizacao {
+    float: left;
+    margin: 12px 10px;
+}
+.contato-footer i {
+    color:rgb(129, 99, 0);
+}
+.contato-footer a:hover {
+    text-decoration: underline;
+}
 @media (max-width: 576px ) {
 .topnav a:not(.topnav){display: none;}
 .topnav a.icon {
@@ -102,6 +174,41 @@ form label, form p {
     top: 0;
 }
 }
+@media (min-width: 576px) {
+.contato-footer {
+    display: grid;
+}
+    
+footer h4 {
+    font-size: 16px;
+}
+footer {
+    height: 50vh;
+    display: flex;
+}
+.forma-pagto img {
+    width: 45px;
+    height: 29px;
+    margin: -3px 0;
+}
+.contato-footer {
+    display: grid;
+}
+.tel,.email,.localizacao {
+    margin: -20px 10px;
+    position: relative;
+    top: -17px;
+}
+    
+.contato-footer,.forma-pagto,.redes-sociais{
+    margin: 10px auto;
+}
+    
+.btn-rede {
+    padding: 0 5px;
+    font-size: 24px;
+}
+}
 /*Se a tela tiver pelo menos 760 (tablet) pixels vai carregar estes estilos*/
 @media (min-width: 768px ) {
 header{
@@ -109,7 +216,7 @@ header{
 }
 .topnav a {
     font-size: 22px;
-    right: -250px;
+    right: -376px;
     
 }
 form {
@@ -133,6 +240,31 @@ header img {
 @media (min-width: 992px ) {
 .topnav a {
     right: -917px;
+}
+footer {
+    height: 37vh;
+    display: flex;
+}
+.forma-pagto img {
+    width: 55px;
+    height: 34px;
+    margin: 3px 0;
+}
+.contato-footer {
+    display: grid;
+}
+.tel,.email,.localizacao {
+    margin: -20px 10px;
+    position: relative;
+    top: -17px;
+}
+
+.contato-footer,.forma-pagto,.redes-sociais{
+    margin: 10px auto;
+}
+
+.btn-rede {
+    padding: 0 5px;
 }
 }
 
