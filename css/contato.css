@@ -67,7 +67,7 @@ form p {
 .input-padrao {
     display: block;
     margin-bottom: 5px;
-    padding: 5px 25px;
+    padding: 5px 5px;
     width: 90%;
 }
 .checkbox {
