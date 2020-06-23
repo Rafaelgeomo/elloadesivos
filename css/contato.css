@@ -5,7 +5,6 @@
 }
 body {
     background: url("../img/fundologo.jpg");
-    background-size: auto 50vh;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
@@ -59,14 +58,17 @@ form {
 form label, form p {
     display: block;
     font-size: 16px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     color: whitesmoke;
+}
+form p {
+    margin: 10px 0;
 }
 .input-padrao {
     display: block;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     padding: 5px 25px;
-    width: 65vw;
+    width: 90%;
 }
 .checkbox {
     margin: 10px 0; /*margin pra cima e pra baixo de 20px e para os lados de 0 */
@@ -85,7 +87,7 @@ footer {
     bottom: 0;
     position: relative;
     width: 100vw;
-    height: 60vh;
+    height: 56vh;
     margin-top: 46px;
     padding: 5px 0;
 }
@@ -94,10 +96,8 @@ footer {
     background:gray;
     color:#ffffff;
     font-size: 13px;
-    position: absolute;
     float: left;
     width: 100vw;
-    bottom: 0;
 }
 
 .footer-extra img {

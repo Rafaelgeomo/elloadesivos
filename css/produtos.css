@@ -5,7 +5,6 @@
 }
 body {
     background: url("../img/fundologo.jpg");
-    background-size: auto 50vh;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
@@ -56,7 +55,7 @@ footer {
     bottom: 0;
     position: relative;
     width: 100vw;
-    height: 60vh;
+    height: 56vh;
     margin-top: 46px;
     padding: 5px 0;
 }
@@ -65,10 +64,8 @@ footer {
     background:gray;
     color:#ffffff;
     font-size: 13px;
-    position: absolute;
     float: left;
     width: 100vw;
-    bottom: 0;
 }
 
 .footer-extra img {
