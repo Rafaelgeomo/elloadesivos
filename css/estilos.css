@@ -68,12 +68,12 @@ nav {
 
 footer {
     background: #CCCCCC;
-    bottom: 0;
-    position: relative;
     width: 100vw;
     height: 56vh;
     margin-top: 46px;
     padding: 5px 0;
+    position: relative;
+    bottom: -28px;
 }
 
 .footer-extra {
