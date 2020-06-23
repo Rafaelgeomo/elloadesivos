@@ -84,11 +84,11 @@ form p {
 }
 footer {
     background: #CCCCCC;
-    bottom: 0;
     width: 100vw;
     height: 56vh;
     margin-top: 46px;
     padding: 5px 0;
+    position: static;
 }
 
 .footer-extra {
