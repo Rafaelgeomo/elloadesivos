@@ -86,9 +86,8 @@ footer {
     background: #CCCCCC;
     width: 100vw;
     height: 56vh;
-    margin-top: 46px;
     padding: 5px 0;
-    position: static;
+    position: relative;
 }
 
 .footer-extra {
