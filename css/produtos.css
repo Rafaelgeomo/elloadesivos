@@ -50,34 +50,14 @@ nav {
 .topnav .icon {
     display: none;
 }
-footer {
+main {
+    height: 90vh;
+}
+.footer {
     background: #CCCCCC;
-    bottom: 0;
     width: 100vw;
-    height: 56vh;
-    margin-top: 46px;
+    height: 51vh;
     padding: 5px 0;
-}
-
-.footer-extra {
-    background:gray;
-    color:#ffffff;
-    font-size: 13px;
-    float: left;
-    width: 100vw;
-}
-
-.footer-extra img {
-    position: relative;
-    top: 10px;
-    padding: 0 10px;
-}
-
-.copyright {
-    position: relative;
-    padding-left: 50px;
-    top: -15px;
-    
 }
 .forma-pagto img {
     width: 55px;
@@ -200,8 +180,8 @@ main {
 .topnav a {
     right: -917px;
 }
-footer {
-    height: 37vh;
+.footer {
+    height: 23vh;
     display: flex;
 }
 .forma-pagto img {
@@ -213,9 +193,9 @@ footer {
     display: grid;
 }
 .tel,.email,.localizacao {
-    margin: -20px 10px;
+    margin: 5px 0px;
     position: relative;
-    top: -17px;
+    top: -10px;
 }
 
 .contato-footer,.forma-pagto,.redes-sociais{

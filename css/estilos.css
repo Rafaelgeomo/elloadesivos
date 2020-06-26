@@ -51,6 +51,9 @@ nav {
 .topnav .icon {
     display: none;
 }
+main {
+    height: 90vh;
+}
 .main-highlight-image{
     height: 90px;
     width: 100vw;
@@ -66,36 +69,11 @@ nav {
 .main-highlight i:hover {
     text-shadow: 1px 1px 5px rgb(255, 255, 255);
 }
-
-footer {
+.footer {
     background: #CCCCCC;
     width: 100vw;
-    height: 56vh;
-    margin-top: 46px;
+    height: 51vh;
     padding: 5px 0;
-    position: relative;
-    bottom: -28px;
-}
-
-.footer-extra {
-    background:gray;
-    color:#ffffff;
-    font-size: 13px;
-    float: left;
-    width: 100vw;
-}
-
-.footer-extra img {
-    position: relative;
-    top: 10px;
-    padding: 0 10px;
-}
-
-.copyright {
-    position: relative;
-    padding-left: 50px;
-    top: -15px;
-    
 }
 .forma-pagto img {
     width: 55px;
@@ -103,7 +81,7 @@ footer {
     margin: 3px 25px 10px 10px;
 }
 
-footer h4 {
+.footer h4 {
     margin: 15px 10px;
     font-size: 16px;
 }
@@ -164,11 +142,10 @@ footer h4 {
 .contato-footer {
     display: grid;
 }
-
-footer h4 {
+.footer h4 {
     font-size: 16px;
 }
-footer {
+.footer {
     height: 50vh;
     display: flex;
 }
@@ -216,17 +193,13 @@ header img {
     margin: 38px 0 0 13px;
     top: -29px;
 }
-main {
-    height: 90vh;
-}
-
 }
 @media (min-width: 992px ) {
 .topnav a {
     right: -1014px;
 }
-footer {
-    height: 37vh;
+.footer {
+    height: 23vh;
     display: flex;
 }
 .forma-pagto img {
@@ -238,13 +211,12 @@ footer {
     display: grid;
 }
 .tel,.email,.localizacao {
-    margin: -20px 10px;
+    margin: 5px 0px;
     position: relative;
-    top: -17px;
+    top: -10px;
 }
-
 .contato-footer,.forma-pagto,.redes-sociais{
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .btn-rede {
